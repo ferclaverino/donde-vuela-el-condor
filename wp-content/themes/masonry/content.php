@@ -8,8 +8,10 @@
 
 	<?php if ( has_post_thumbnail() ) : ?>
     <div class="entry-thumbnail">
+        
         <a href="<?php the_permalink(); ?>" rel="bookmark">
              <?php the_post_thumbnail( 'masonry-home' ); ?>
+             <h4><?php the_title(); ?></h4>
         </a>
     </div><!-- .entry-thumbnail -->
     <?php else: ?>
