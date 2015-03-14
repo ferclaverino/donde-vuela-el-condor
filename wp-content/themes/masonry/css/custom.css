@@ -1,8 +1,12 @@
 .masonry .entry-thumbnail h4 {
     position: absolute;
-    bottom: 0px;
+    bottom: -25px;
     left: 0;
-    width: 100%;
+    width: 280px;
+    background-color: white;
+    opacity: 0.6;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 .category .entry-thumbnail {
