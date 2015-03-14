@@ -16,9 +16,13 @@
 
 .category .entry-thumbnail h4 {
 	position: absolute;
-    bottom: 0px;
+    bottom: -27px;
     left: 0;
     width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 .sidr .menu {
