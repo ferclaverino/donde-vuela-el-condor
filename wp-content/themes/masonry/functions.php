@@ -86,6 +86,16 @@ function masonry_widgets_init() {
 		'before_title'  => '<p class="widget-title">',
 		'after_title'   => '</p>',
 	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Footbar', 'masonry' ),
+		'id'            => 'footbar-1',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<p class="widget-title">',
+		'after_title'   => '</p>',
+	) );
 }
 add_action( 'widgets_init', 'masonry_widgets_init' );
 

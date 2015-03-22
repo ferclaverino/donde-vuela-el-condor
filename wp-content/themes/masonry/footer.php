@@ -24,11 +24,17 @@
 		    ?>
             
             <?php endif; ?>
-            
+        
+        <div id="footbar" class="widget-area" role="complementary">                
+            <?php dynamic_sidebar( 'footbar-1' ); ?>
+        </div>
+
+        <!--
         <div class="site-credits">
             <?php printf( __( 'Theme: %1$s by %2$s.', 'masonry' ), 'Masonry', '<a href="http://devrix.com/themes/masonry/" title="Masonry WordPress Theme" rel="designer">DevriX</a>' ); ?>
             <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'masonry' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'masonry' ), 'WordPress' ); ?></a>
-        </div><!-- .site-credits --> 
+        </div>-->
+        <!-- .site-credits --> 
             
 		</div><!-- .site-info -->
         
